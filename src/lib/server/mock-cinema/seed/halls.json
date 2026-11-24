@@ -1,0 +1,1407 @@
+{
+	"red": {
+		"name": "Red",
+		"places": [
+			[
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				}
+			],
+			[
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				}
+			],
+			[
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "comfort"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				},
+				{
+					"price": 100,
+					"type": "econom"
+				}
+			]
+		]
+	},
+	"green": {
+		"name": "Green",
+		"places": [
+			[
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "comfort"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 200,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				}
+			]
+		]
+	},
+	"blue": {
+		"name": "Blue",
+		"places": [
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 400,
+					"type": "comfort"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			],
+			[
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 0,
+					"type": "blocked"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				},
+				{
+					"price": 300,
+					"type": "econom"
+				}
+			]
+		]
+	}
+}
