@@ -62,6 +62,7 @@
 | Тесты                 | `vitest` + `@testing-library/svelte` + jsdom                                    |
 | Документация UI       | Storybook (`@storybook/svelte` + Svelte CSF)                                    |
 | Git-хуки              | `husky` + `lint-staged`                                                         |
+| Деплой                | `@sveltejs/adapter-node` + Docker (см. раздел 14)                               |
 | (опц.) Валидация форм | `zod`                                                                           |
 
 > Storybook и тесты пишем **только для наших компонентов и логики**, не для сторонних (shadcn/bits-ui).
@@ -525,7 +526,33 @@ messages/
 
 ---
 
-## 14. Ссылки
+## 14. Деплой
+
+Сайт нельзя отдать статикой: есть SSR, серверные API-роуты (`/api/*`), прокси
+авторизации и `httpOnly`-cookie. Используется `@sveltejs/adapter-node`; сборка
+складывается в `build/` и запускается `node build`.
+
+| Переменная    | Назначение                                             | По умолчанию                 |
+| ------------- | ------------------------------------------------------ | ---------------------------- |
+| `ORIGIN`      | Публичный URL приложения (обязателен за reverse proxy) | —                            |
+| `BACKEND_URL` | База реального API аккаунта                            | `https://juniorsbootcamp.ru` |
+| `PORT`        | Порт прослушивания                                     | `3000`                       |
+| `HOST`        | Интерфейс прослушивания                                | `0.0.0.0` в Docker           |
+
+Docker: `docker build -t svelte-cinema .`, затем `docker run` с `ORIGIN`.
+Compose: скопировать `.env.example` в `.env` и выполнить
+`docker compose up -d --build`. Подробности — в `README.md`.
+
+Ограничения:
+
+- Заказы и занятые места мока живут в памяти процесса: рестарт контейнера
+  сбрасывает состояние, несколько реплик не синхронизируются.
+- Эндпоинт `/api/otps` проксирует служебную страницу реального API и отдаёт
+  OTP-коды — для публичного демо его нужно закрыть или ограничить по IP.
+
+---
+
+## 15. Ссылки
 
 - Figma: страница «Кинотеатр» (Light/Dark: Junior/Middle/Senior), общие «Components/Colors/Typography/Icons».
 - Контракт cinema: [`docs/research/cinema-api.md`](./research/cinema-api.md).

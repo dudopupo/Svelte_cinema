@@ -37,6 +37,62 @@ To create a production version of your app:
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+The project uses `@sveltejs/adapter-node`, so the build produces a standalone
+Node server in `build/`. You can preview it with:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+node build
+```
+
+## Деплой (Docker / VPS)
+
+Требуется Node.js 22+ либо Docker. Сайт нельзя разместить как статику: здесь
+SSR, серверные API-роуты, прокси авторизации и `httpOnly`-cookie.
+
+### Переменные окружения
+
+| Переменная    | Назначение                                        | По умолчанию                 |
+| ------------- | ------------------------------------------------- | ---------------------------- |
+| `ORIGIN`      | Публичный URL приложения (нужен за reverse proxy) | —                            |
+| `BACKEND_URL` | База реального API аккаунта                       | `https://juniorsbootcamp.ru` |
+| `PORT`        | Порт, который слушает `node build`                | `3000`                       |
+| `HOST`        | Интерфейс прослушивания                           | `0.0.0.0` (в Docker)         |
+| `APP_PORT`    | Только для Compose: внешний порт контейнера       | `3000`                       |
+
+Скопируйте `.env.example` в `.env` и укажите свой `ORIGIN`.
+
+### Docker
+
+```sh
+docker build -t svelte-cinema .
+docker run -d --name svelte-cinema -p 3000:3000 \
+  -e ORIGIN=https://cinema.example.com \
+  svelte-cinema
+```
+
+### Docker Compose
+
+```sh
+cp .env.example .env   # укажите ORIGIN
+docker compose up -d --build
+```
+
+### Без Docker
+
+```sh
+npm ci
+npm run build
+ORIGIN=https://cinema.example.com node build
+```
+
+Для продакшена ставьте приложение за Nginx/Caddy с HTTPS и проксируйте на
+`127.0.0.1:3000`. В `ORIGIN` должен быть внешний HTTPS-адрес.
+
+### Важно для этого демо
+
+- Заказы и купленные места мока хранятся в памяти процесса. При рестарте,
+  передеплое или перезапуске контейнера они сбрасываются.
+- Эндпоинт `/api/otps` проксирует служебную страницу реального API и отдаёт
+  OTP-коды. Для публичного демо его стоит закрыть или ограничить по IP.
+- Мок-состояние не рассчитано на несколько реплик: запускайте один инстанс
+  приложения (или выносите состояние в БД/Redis).

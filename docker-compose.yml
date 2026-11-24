@@ -1,0 +1,12 @@
+services:
+  cinema:
+    build: .
+    image: svelte-cinema
+    restart: unless-stopped
+    ports:
+      - '${APP_PORT:-3000}:3000'
+    environment:
+      # Public URL of the app. Required behind a reverse proxy (HTTPS/domain).
+      ORIGIN: '${ORIGIN:-http://localhost:3000}'
+      # Real account API. Defaults to https://juniorsbootcamp.ru inside the app.
+      BACKEND_URL: '${BACKEND_URL:-https://juniorsbootcamp.ru}'
