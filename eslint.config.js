@@ -34,6 +34,13 @@ export default defineConfig(
 		}
 	},
 	{
+		// shadcn-svelte components are generated code; keep our own lint rules out of them.
+		files: ['src/lib/components/ui/**'],
+		rules: {
+			'svelte/no-navigation-without-resolve': 'off'
+		}
+	},
+	{
 		// Override or add rule settings here, such as:
 		// 'svelte/button-has-type': 'error'
 		rules: {}

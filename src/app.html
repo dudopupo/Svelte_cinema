@@ -1,12 +1,30 @@
 <!doctype html>
 
-<html lang="%paraglide.lang%" dir="%paraglide.dir%">
+<html lang="%paraglide.lang%" dir="%paraglide.dir%" data-theme="dark" class="dark">
 	<head>
 		<meta charset="utf-8" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<meta name="text-scale" content="scale" />
+		<script>
+			(() => {
+				try {
+					const stored = localStorage.getItem('cinema-theme');
+					const theme =
+						stored === 'light' || stored === 'dark'
+							? stored
+							: window.matchMedia('(prefers-color-scheme: light)').matches
+								? 'light'
+								: 'dark';
+					document.documentElement.dataset.theme = theme;
+					document.documentElement.classList.toggle('dark', theme === 'dark');
+				} catch {
+					document.documentElement.dataset.theme = 'dark';
+					document.documentElement.classList.add('dark');
+				}
+			})();
+		</script>
 		%sveltekit.head%
 	</head>
 
